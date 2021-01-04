@@ -1,37 +1,98 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/rupalichourasiya44/rupali/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rupalichourasiya44/rupali/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!doctype html>
+<html>
+	<head>
+		<title>Product Landing Page</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	</head>
+	<body>
+		<header id="header">
+			<div class="logo">
+			<img src="logo.png" id="logo-img" alt="logo">
+			</div>
+			<nav id="nav-bar">
+				<ul>
+					<li><a href="#features" class="nav-link">Features</a></li>
+					<li><a href="#how-it-works" class="nav-link">How it Works</a></li>
+					<li><a href="#pricing" class="nav-link">Pricing</a></li>				
+				</ul>
+			</nav>
+		</header>
+				<section id="features">
+			<div class="grid">
+				<div class="icon"><i class="fa fa-hand-o-right"></i></div>
+				<div class="description">
+					<h2>Premium Materials</h2>
+					<p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+				</div>
+			</div>
+			<div class="grid">
+				<div class="icon"><i class="fa fa-automobile"></i></div>
+				<div class="description">
+					<h2>Fast Shipping</h2>
+					<p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+				</div>
+			</div>
+			<div class="grid">
+				<div class="icon"><i class="fa fa-thumbs-o-up"></i></div>
+				<div class="description">
+					<h2>Quality Assurance</h2>
+					<p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+				</div>
+			</div>
+		</section>
+		<section id="how-it-works">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/0OttfOXsP2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</section>
+		<section id="pricing">
+      <div class="product" id="tenor">
+        <div class="level">Tenor Trombone</div>
+        <h2>$600</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="bass">
+        <div class="level">Bass Trombone</div>
+        <h2>$900</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="valve">
+        <div class="level">Valve Trombone</div>
+        <h2>$1200</h2>
+        <ol>
+          <li>Plays similar to a Trumpet</li>
+          <li>Great for Jazz Bands</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+		<section id="hero">
+			<h2>Get Started With Coca Cola!</h2>
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
+			<input type="email" id="email" placeholder="Enter Your Email">
+				<input type="submit" id="submit" vlaue="Get Started" class="btn">
+			</form>			
+		</section>
+		<footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span> &copy Copyright 2016, Original Trombones</span>
+    </footer>
+	</body>
+</html>
